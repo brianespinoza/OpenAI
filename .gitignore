@@ -1,0 +1,23 @@
+# Ignore Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.so
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore test artifacts
+test/*.pyc
+test/__pycache__/
+
+# Ignore dist/ and build/ directories (for Python distributions)
+dist/
+build/
+
+# Ignore the .env file (if you are using it to store your secrets)
+.env
