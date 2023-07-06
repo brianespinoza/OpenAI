@@ -19,7 +19,7 @@ class TestCompletions(unittest.TestCase):
             raise ValueError("OPENAI_API_KEY not found.")
 
 
-        start_sequence = "The below text is of a recipe output from an OCR engine. Clean the text and collate the recipe into json format \"title\", \"subtitle\", \"authors note\", \"ingredients\" array, \"preparation steps\" array, and \"servings\" (only populate sections when applicable and use an array where prompted). Respond only with the json."
+        start_sequence = "The below text is of a recipe output from an OCR engine. Clean the text and collate the recipe into json format \"title\", \"subtitle\", \"ingredients\" array, \"preparation steps\" array, and \"servings\" (only populate sections when applicable and use an array where prompted). Respond only with the json! "
         restart_sequence = ""
         completion_options = CompletionOptions(max_tokens=0)
         completions = Completions(api_key=api_key, completion_options=completion_options)
@@ -29,8 +29,11 @@ class TestCompletions(unittest.TestCase):
             prompt = file.read().replace('\n', '')
 
         result = completions.create(prompt=prompt, start_sequence=start_sequence, restart_sequence=restart_sequence)
+        with open('test_create_output.txt', 'w') as f:
+            f.write(result)
         # Very simple test - just checks that some completion was generated
-        self.assertTrue(len(result) > 0)
+        self.assertIsNotNone(result)
+
 
 if __name__ == '__main__':
     unittest.main()

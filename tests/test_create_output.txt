@@ -1,0 +1,29 @@
+{
+"title": "Herb and Cheese Meatballs with a Smoky Tomato-Chipotle Sauce",
+"ingredients": [
+"10 large Roma tomatoes (2 lb/990 g), cored",
+"2 to 5 canned chipotle peppers in adobo sauce, plus 2 tablespoons adobo sauce",
+"Morton kosher salt",
+"1 cup panko or fresh breadcrumbs",
+"1/2 cup finely chopped fresh cilantro (1.7 oz/50 g), plus more for serving",
+"1/2 cup crumbled queso fresco (2.15 oz/61 g), plus more for serving",
+"1 large white onion (5.7 oz/162 g), grated on the large holes of a box grater, divided",
+"5 garlic cloves, finely grated, divided",
+"1 teaspoon freshly ground black pepper",
+"1/4 teaspoon cumin seeds",
+"1 cup crema or sour cream",
+"1 pound (453 g) ground beef (20% fat)",
+"1 pound (453 g) ground pork (20% fat if possible)",
+"3 tablespoons extra-virgin olive oil, divided, plus more for shaping",
+"1 teaspoon dried oregano, preferably Mexican",
+"1 1/2 cups homemade chicken stock or store-bought low-sodium chicken broth"
+],
+"preparation": [
+"Heat oven to 375°F (190°C).",
+"In a large bowl, mix beef, pork, oregano, panko, 2 tablespoons cilantro, queso fresco, 1/4 cup onion, 2 garlic cloves, pepper, and cumin until just mixed. Gently form into 1 1/2-inch (4-cm) balls. Heat 1 tablespoon oil in a large skillet over medium-high heat. Add half of meatballs and cook, turning, until evenly browned, about 5 minutes. Transfer to a plate. Add another tablespoon oil and repeat with remaining meatballs. Wipe out skillet and set aside.",
+"Meanwhile, in a blender, purée tomatoes, chipotle peppers, adobo sauce, 1/4 cup onion, 
+3 garlic cloves, 1 teaspoon salt, and 1/4 cup water until homogenous. Strain through a medium-mesh sieve into the reserved skillet and discard solids. Bring sauce to a simmer and cook until slightly thickened, about 10 minutes. Add 2 tablespoons cilantro, 1/4 cup crema, and 1/4 cup chicken stock. Gently transfer meatballs to the skillet and turn to coat. Cook until sauce is thickened and lightly coats the meatballs, about 5 minutes. Taste and add more salt, if desired.",
+"Transfer skillet to oven and bake until meatballs are cooked through, about 15 minutes. Remove from oven and garnish with remaining cilantro. Serve with tortillas, rice, and beans.",
+],
+"servings": "Serves 4"
+}

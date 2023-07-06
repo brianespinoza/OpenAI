@@ -1,5 +1,5 @@
 class CompletionOptions:
-    def __init__(self, max_tokens=0, temperature=1, top_p=1, frequency_penalty=0, presence_penalty=0):
+    def __init__(self, engine="text-davinci-003", max_tokens=0, temperature=1, top_p=1, frequency_penalty=0, presence_penalty=0):
         """
         CompletionOptions Class for managing options for OpenAI Completions.
 
@@ -15,3 +15,4 @@ class CompletionOptions:
         self.top_p = top_p
         self.frequency_penalty = frequency_penalty
         self.presence_penalty = presence_penalty
+        self.engine = engine
